@@ -1,0 +1,7 @@
+local gpu = component.proxy(component.list("gpu")())
+clear()
+write(1, 2, "==============")
+write(1, 3, " = ======== = ")
+write(1, 4, "  === == ===")
+write(1, 5, "Operating system: Jinto")
+write(1, 6, "Version 1.7")
