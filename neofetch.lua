@@ -1,5 +1,9 @@
 local gpu = component.proxy(component.list("gpu")())
 
+local function title()
+    write(1, 1, "Welcome To Jinto!")
+end
+
 local function clear()
     gpu.fill(1, 1, 50, 16, " ")
 end
@@ -9,6 +13,7 @@ local function write(x, y, text)
 end
 
 clear()
+title()
 write(1, 2, "==============")
 write(1, 3, " = ======== = ")
 write(1, 4, "  === == ===")
